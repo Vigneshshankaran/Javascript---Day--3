@@ -1,0 +1,33 @@
+//Create your own resume data in JSON format
+
+let resume =[{
+    "basic" : {
+        "name": "Vignesh Shankaran",
+        "email": "vigneshganesha@gmail.com",
+        "phone": 7200596072,
+        "summary": "Four year of experience in Link Buliding"
+    },
+    "location": {
+        "address": "RamNagar South 9th main road",
+        "city": "Chennai",
+        "postalCode": "600091",
+        "state": "Tamilnadu",
+    },
+    "education": {
+        "school": "ARIGNAR ANNA HIGHER SECONDARY SCHOOL : SSLC 50%",
+        "college": "SA POLYTECHNIC COLLEGE DIPLOMA IN COMPUTER ENGINNERING - 66%",
+    },
+    "skills": {
+        "name": "Web Development",
+        "level": "beginner",
+        "goodat": "HTML,CSS,BOOTSTRAP,JAVASCRIPT"
+    },
+    "work": {
+        "company name": "ORGANICAPEX TECHNOLOGY PVT.LTD",
+        "position": "LINK BUILDER",
+        "year": "2016 to Present",
+    },
+}]
+    
+
+console.log(resume);
